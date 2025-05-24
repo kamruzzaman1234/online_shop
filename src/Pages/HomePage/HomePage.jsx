@@ -1,8 +1,10 @@
+import '../../index.css'
 import Banner from "../../components/Home Comopent/Banner/Banner";
 
 const HomePage = ()=>{
     return(
-        <div className="max-w-[1460px] mx-auto w-full">
+        <div className="">
+            
             <Banner></Banner>
         </div>
     )
